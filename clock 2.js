@@ -11,3 +11,4 @@ setInterval(() => {
     min.style.transform =`rotateZ(${mrotation}deg)`;
     sec.style.transform =`rotateZ(${srotation}deg)`;
 }, 1000);
+setInterval(drawClock, 1000);
